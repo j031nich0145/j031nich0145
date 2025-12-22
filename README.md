@@ -3,7 +3,8 @@
 # ⚠️⚠️⚠️ Construction ⚠️⚠️⚠️
 
 <div>
-  <img src="https://github.com/user-attachments/assets/kermit-gif-url" width="300"/>
+  <img src="https://github.com/user-attachments/assets/439c5ffc-95ea-4392-b671-0393234a44fb)
+
   <img src="https://github.com/user-attachments/assets/24d10913-d115-4fd9-a90e-5d60ff949c78" width="300"/>
 </div>
 
