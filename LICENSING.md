@@ -56,4 +56,4 @@ THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPL
 
 ---
 
-**Copyright © 2024 j031nich0145 and agents. All rights reserved.**
+**Copyright © 2026 j031nich0145 and agents. All rights reserved.**
