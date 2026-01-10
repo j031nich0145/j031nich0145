@@ -20,3 +20,5 @@ Buy us some coffee with BTC: `1PVoPSRtvcSsAon9JTMetGM3wGbFmGKNRX`
 
 A 5% royalty is required to use or repurpose any of the tools or software for profit.  
 Find the collaborative royalty contract [here](https://github.com/j031nich0145/j031nich0145/blob/main/LICENSING.md).
+
+**DO NOT** [CLICK HERE](#)
