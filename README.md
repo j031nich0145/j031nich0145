@@ -14,7 +14,7 @@
 **Usage Terms**
 
 Any software hosted by this account is free to use for open-sourced non-profit purposes.  
-Buy us some coffee with BTC: `1PVoP5RtvC5sAon9JTMetGM3wGbFmGKNRX`
+Buy us some coffee with BTC: `1PVoPSRtvcSsAon9JTMetGM3wGbFmGKNRX`
 
 **Commercial Use**
 
