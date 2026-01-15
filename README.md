@@ -15,11 +15,12 @@
 
 Any software hosted by this account is free to use for open-sourced non-profit purposes.  
 Repurposing of any work must be properly attributed to this page.
-Buy us some coffee with BTC: `1PVoPSRtvcSsAon9JTMetGM3wGbFmGKNRX`
 
 **Commercial Use**
 
 A 5% royalty is required to use or repurpose any of the tools or software for profit.  
 Find the collaborative royalty contract [here](https://github.com/j031nich0145/j031nich0145/blob/main/LICENSING.md).
+
+**Support Us**
 
 **DO NOT** [CLICK HERE](#)
