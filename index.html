@@ -10,7 +10,7 @@
     margin: 0;
     width: 100%;
     height: 100%;
-    background: #0b0b0b;
+    background: #000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,10 +35,7 @@
     text-align: center;
     cursor: pointer;
     user-select: none;
-    transition: transform 0.1s ease, box-shadow 0.1s ease, filter 0.1s ease;
     position: relative;
-
-    /* Alive + pulse */
     animation: alivePulse 2.5s infinite, pulse 2.4s infinite;
   }
 
@@ -48,7 +45,6 @@
     bottom: -3rem;
     font-size: 1rem;
     color: #aaa;
-    opacity: 0.85;
   }
 
   #button:active {
@@ -70,103 +66,82 @@
     100% { transform: rotate(0deg); }
   }
 
-  @keyframes shake {
-    0%, 100% { transform: translate(0,0) scale(1); filter: brightness(1); }
-    20% { transform: translate(-3px,2px) scale(1.02); filter: brightness(1.2); }
-    40% { transform: translate(3px,-2px) scale(1.01); filter: brightness(0.9); }
-    60% { transform: translate(-2px,1px) scale(1.03); filter: brightness(1.15); }
-    80% { transform: translate(2px,-1px) scale(1.02); filter: brightness(1.05); }
-  }
-
-  #button:hover {
-    animation: alivePulse 2.5s infinite, pulse 2.4s infinite, shake 0.4s infinite;
-  }
-
-  /* Overlay used to cover the browser fullscreen banner briefly */
-  #topCover {
+  /* Fullscreen banner mask */
+  #mask {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 90px; /* enough to cover typical banner height */
-    background: #000;
+    height: 140px; /* oversized to catch all browser banners */
+    background: black;
+    z-index: 9999999;
     opacity: 0;
+    transition: opacity 0.2s linear;
     pointer-events: none;
-    z-index: 999999;
-    transition: opacity 250ms ease;
   }
-  #topCover.show {
+  #mask.show {
     opacity: 1;
   }
 </style>
 </head>
 
 <body>
-  <div id="topCover"></div>
+  <div id="mask"></div>
   <div id="button">DO NOT<br>PRESS</div>
 
 <script>
   const button = document.getElementById("button");
-  const topCover = document.getElementById("topCover");
+  const mask = document.getElementById("mask");
 
-  // Reliable “system beep” using Web Audio (works far better than tiny WAVs)
-  async function systemBeep() {
+  async function systemBeepTwoSeconds() {
     const AudioCtx = window.AudioContext || window.webkitAudioContext;
-    if (!AudioCtx) return;
-
     const ctx = new AudioCtx();
-    try { await ctx.resume(); } catch {}
+    await ctx.resume();
 
     const osc = ctx.createOscillator();
     const gain = ctx.createGain();
 
-    // Beep tone
     osc.type = "square";
-    osc.frequency.value = 880; // Hz
+    osc.frequency.value = 880;
 
-    // Envelope to avoid clicks
     const now = ctx.currentTime;
     gain.gain.setValueAtTime(0.0001, now);
-    gain.gain.exponentialRampToValueAtTime(0.6, now + 0.01);
-    gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.10);
+    gain.gain.exponentialRampToValueAtTime(0.7, now + 0.05);
+    gain.gain.setValueAtTime(0.7, now + 1.85);
+    gain.gain.exponentialRampToValueAtTime(0.0001, now + 2.0);
 
     osc.connect(gain);
     gain.connect(ctx.destination);
 
     osc.start(now);
-    osc.stop(now + 0.11);
+    osc.stop(now + 2.0);
 
-    // Close context shortly after
-    setTimeout(() => { try { ctx.close(); } catch {} }, 200);
+    setTimeout(() => ctx.close(), 2200);
   }
 
   button.addEventListener("click", async () => {
-    // Mobile vibration
-    if (navigator.vibrate) navigator.vibrate([80, 40, 80]);
+    if (navigator.vibrate) navigator.vibrate([100, 50, 100]);
 
-    // Beep now (gesture-allowed)
-    systemBeep();
+    // Start the 2-second beep
+    systemBeepTwoSeconds();
 
-    // Dramatic pause
     setTimeout(async () => {
-      // Fullscreen (gesture chain still counts on most browsers)
       try {
         await document.documentElement.requestFullscreen();
       } catch {}
 
-      // Cover fullscreen banner briefly (cannot remove it; only hide it)
-      topCover.classList.add("show");
-      setTimeout(() => topCover.classList.remove("show"), 1400);
+      // Mask ASAP to hide banner once page regains control
+      mask.classList.add("show");
 
-      // Replace page with looping video
+      // Swap to video
       document.body.innerHTML = `
-        <div id="topCover" class="show"></div>
+        <div id="mask" class="show"></div>
         <video
           id="rick"
           src="rickroll.mp4"
           autoplay
-          playsinline
           loop
+          playsinline
           preload="auto"
           style="
             position:fixed;
@@ -180,21 +155,17 @@
         </video>
       `;
 
-      // Fade off the cover after we swap pages (still hiding the banner)
-      const cover2 = document.getElementById("topCover");
-      setTimeout(() => cover2.classList.remove("show"), 1400);
+      const mask2 = document.getElementById("mask");
+      setTimeout(() => mask2.classList.remove("show"), 1800);
 
       const video = document.getElementById("rick");
       video.muted = false;
       video.volume = 1.0;
-
-      // Try to force playback ASAP
       video.play().catch(() => {});
 
-      // Keep volume pinned at max browser volume
       video.addEventListener("volumechange", () => {
-        if (video.volume !== 1.0) video.volume = 1.0;
-        if (video.muted) video.muted = false;
+        video.volume = 1.0;
+        video.muted = false;
       });
     }, 300);
   });
