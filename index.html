@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Do Not Press</title>
 
 <style>
@@ -24,9 +24,7 @@
     max-height: 540px;
     border-radius: 50%;
     background: radial-gradient(circle at 30% 30%, #ff6b6b, #9b0000);
-    box-shadow:
-      0 18px 0 #5c0000,
-      0 42px 70px rgba(0,0,0,0.8);
+    box-shadow: 0 18px 0 #5c0000, 0 42px 70px rgba(0,0,0,0.8);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,12 +35,13 @@
     text-align: center;
     cursor: pointer;
     user-select: none;
-    animation: alivePulse 2.5s infinite, pulse 2.4s infinite;
     transition: transform 0.1s ease, box-shadow 0.1s ease, filter 0.1s ease;
     position: relative;
+
+    /* Alive + pulse */
+    animation: alivePulse 2.5s infinite, pulse 2.4s infinite;
   }
 
-  /* Tooltip on hover */
   #button:hover::after {
     content: "Seriously. Don’t.";
     position: absolute;
@@ -52,31 +51,25 @@
     opacity: 0.85;
   }
 
-  /* Clicked state */
   #button:active {
     transform: translateY(12px) scale(0.95);
-    box-shadow:
-      0 6px 0 #5c0000,
-      0 22px 35px rgba(0,0,0,0.85);
+    box-shadow: 0 6px 0 #5c0000, 0 22px 35px rgba(0,0,0,0.85);
   }
 
-  /* Subtle pulse */
   @keyframes pulse {
-    0% { box-shadow: 0 18px 0 #5c0000, 0 42px 70px rgba(0,0,0,0.8); }
-    50% { box-shadow: 0 18px 0 #5c0000, 0 42px 95px rgba(255,0,0,0.35); }
+    0%   { box-shadow: 0 18px 0 #5c0000, 0 42px 70px rgba(0,0,0,0.8); }
+    50%  { box-shadow: 0 18px 0 #5c0000, 0 42px 95px rgba(255,0,0,0.35); }
     100% { box-shadow: 0 18px 0 #5c0000, 0 42px 70px rgba(0,0,0,0.8); }
   }
 
-  /* Slight “alive” wiggle even when not hovered */
   @keyframes alivePulse {
-    0% { transform: rotate(0deg); }
-    25% { transform: rotate(-1.5deg); }
-    50% { transform: rotate(1.5deg); }
-    75% { transform: rotate(-1deg); }
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(-1.5deg); }
+    50%  { transform: rotate(1.5deg); }
+    75%  { transform: rotate(-1deg); }
     100% { transform: rotate(0deg); }
   }
 
-  /* Hover shake + flash */
   @keyframes shake {
     0%, 100% { transform: translate(0,0) scale(1); filter: brightness(1); }
     20% { transform: translate(-3px,2px) scale(1.02); filter: brightness(1.2); }
@@ -85,39 +78,89 @@
     80% { transform: translate(2px,-1px) scale(1.02); filter: brightness(1.05); }
   }
 
-  /* Combine hover effects */
   #button:hover {
     animation: alivePulse 2.5s infinite, pulse 2.4s infinite, shake 0.4s infinite;
   }
 
+  /* Overlay used to cover the browser fullscreen banner briefly */
+  #topCover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px; /* enough to cover typical banner height */
+    background: #000;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 999999;
+    transition: opacity 250ms ease;
+  }
+  #topCover.show {
+    opacity: 1;
+  }
 </style>
 </head>
 
 <body>
-
-<div id="button">DO NOT<br>PRESS</div>
+  <div id="topCover"></div>
+  <div id="button">DO NOT<br>PRESS</div>
 
 <script>
   const button = document.getElementById("button");
+  const topCover = document.getElementById("topCover");
+
+  // Reliable “system beep” using Web Audio (works far better than tiny WAVs)
+  async function systemBeep() {
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    if (!AudioCtx) return;
+
+    const ctx = new AudioCtx();
+    try { await ctx.resume(); } catch {}
+
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+
+    // Beep tone
+    osc.type = "square";
+    osc.frequency.value = 880; // Hz
+
+    // Envelope to avoid clicks
+    const now = ctx.currentTime;
+    gain.gain.setValueAtTime(0.0001, now);
+    gain.gain.exponentialRampToValueAtTime(0.6, now + 0.01);
+    gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.10);
+
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    osc.start(now);
+    osc.stop(now + 0.11);
+
+    // Close context shortly after
+    setTimeout(() => { try { ctx.close(); } catch {} }, 200);
+  }
 
   button.addEventListener("click", async () => {
     // Mobile vibration
     if (navigator.vibrate) navigator.vibrate([80, 40, 80]);
 
-    // Fake system beep
-    const beep = new Audio(
-      "data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAESsAACJWAAACABAAZGF0YQQAAAAA"
-    );
-    beep.play().catch(() => {});
+    // Beep now (gesture-allowed)
+    systemBeep();
 
     // Dramatic pause
     setTimeout(async () => {
+      // Fullscreen (gesture chain still counts on most browsers)
       try {
         await document.documentElement.requestFullscreen();
       } catch {}
 
-      // Replace page with MAX VOLUME video
+      // Cover fullscreen banner briefly (cannot remove it; only hide it)
+      topCover.classList.add("show");
+      setTimeout(() => topCover.classList.remove("show"), 1400);
+
+      // Replace page with looping video
       document.body.innerHTML = `
+        <div id="topCover" class="show"></div>
         <video
           id="rick"
           src="rickroll.mp4"
@@ -137,22 +180,24 @@
         </video>
       `;
 
-      const video = document.getElementById("rick");
+      // Fade off the cover after we swap pages (still hiding the banner)
+      const cover2 = document.getElementById("topCover");
+      setTimeout(() => cover2.classList.remove("show"), 1400);
 
-      // FORCE MAX BROWSER VOLUME
+      const video = document.getElementById("rick");
       video.muted = false;
       video.volume = 1.0;
 
-      // Ensure playback even if browser hesitates
+      // Try to force playback ASAP
       video.play().catch(() => {});
 
-      // Keep volume at max if browser resets
-      video.addEventListener('volumechange', () => {
-        video.volume = 1.0;
+      // Keep volume pinned at max browser volume
+      video.addEventListener("volumechange", () => {
+        if (video.volume !== 1.0) video.volume = 1.0;
+        if (video.muted) video.muted = false;
       });
     }, 300);
   });
 </script>
-
 </body>
 </html>
