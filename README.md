@@ -23,4 +23,6 @@ Find the collaborative royalty contract [here](https://github.com/j031nich0145/j
 
 **Support Us**
 
+[Github Sponsors](https://github.com/sponsors/j031nich0145)
+
 **DO NOT** [CLICK HERE](https://j031nich0145.github.io/j031nich0145/)
