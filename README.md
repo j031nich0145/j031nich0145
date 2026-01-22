@@ -23,7 +23,7 @@ Find the collaborative royalty contract [here](https://github.com/j031nich0145/j
 
 **Support Us**
 
-Buy us coffee ☕ or beer 🍺 or sponsor us here 💖: [![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-%E2%9D%A4-red.svg)](https://github.com/sponsors/j031nich0145)
+Buy us coffee ☕ or beer 🍺 or sponsor us here 💖➡️ [![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-%E2%9D%A4-red.svg)](https://github.com/sponsors/j031nich0145)
 
 
 **DO NOT** [CLICK HERE](https://j031nich0145.github.io/j031nich0145/)
