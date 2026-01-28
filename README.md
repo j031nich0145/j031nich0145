@@ -8,14 +8,13 @@
 <img src="https://github.com/user-attachments/assets/24d10913-d115-4fd9-a90e-5d60ff949c78" width="200" height="200"/>
 
 </div>
-<br>
+
 ---
 **We have fun here**
 <br>
 <details>
-  <summary>What is a Pirate's Favorite Programming Language?</summary>
-  
-  'Tis R'rrrrrr
+  <summary>What's a Pirate's Favorite Programming Language?</summary>
+  <b>'Tis R'rrrrrr</b>
 </details>
 
 **Usage Terms**
