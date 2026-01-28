@@ -34,6 +34,9 @@ Image Color Channel Separater:
 Meme Maker:
 - https://github.com/j031nich0145/MeMer
 
+Crypto Exchange Orderbook Aggregator:
+- https://github.com/j031nich0145/Newagg
+
 
 **Usage Terms**
 
