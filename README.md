@@ -28,10 +28,10 @@ Image Pixelation & Crop Tool:
 Image Background Removal Tool:
 - https://github.com/j031nich0145/noBG
 
-Image Color Channel Separator:
+Image Color-Channel Separation Tool:
 - https://github.com/j031nich0145/channel_IT
 
-Meme Maker:
+Meme Creation Tool:
 - https://github.com/j031nich0145/MeMer
 
 Crypto Exchange Orderbook Aggregator:
