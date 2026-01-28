@@ -10,12 +10,24 @@
 </div>
 
 ---
-**We have fun here**
+**We have fun here...**
 <br>
 <details>
   <summary>What's a Pirate's Favorite Programming Language?</summary>
   <b>'Tis R'rrrrrr</b>
 </details>
+
+**Projects**
+Linux 3 Finger Drag:
+- https://github.com/j031nich0145/draggg
+  
+Image Pixelation & Crop Tool:
+- https://github.com/j031nich0145/pxl8
+  
+Image Background Removal Tool:
+- https://github.com/j031nich0145/noBG
+
+
 
 **Usage Terms**
 
