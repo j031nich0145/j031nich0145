@@ -28,7 +28,7 @@ Image Pixelation & Crop Tool:
 Image Background Removal Tool:
 - https://github.com/j031nich0145/noBG
 
-Image Color Channel Separater:
+Image Color Channel Separator:
 - https://github.com/j031nich0145/channel_IT
 
 Meme Maker:
