@@ -9,7 +9,7 @@
 
 </div>
 <br>
-<br>
+---
 **We have fun here**
 <br>
 <details>
@@ -17,8 +17,6 @@
   
   'Tis R'rrrrrr
 </details>
-
----
 
 **Usage Terms**
 
