@@ -9,8 +9,9 @@
 
 </div>
 <br>
- ---
-**We have fun here...**
+<br>
+**We have fun here**
+<br>
 <details>
   <summary>What is a Pirate's Favorite Programming Language?</summary>
   
