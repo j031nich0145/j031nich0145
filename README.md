@@ -21,13 +21,15 @@
 <br>
 Linux 3 Finger Drag:
 - https://github.com/j031nich0145/draggg
-<br>
+
 Image Pixelation & Crop Tool:
 - https://github.com/j031nich0145/pxl8
-<br>
+
 Image Background Removal Tool:
 - https://github.com/j031nich0145/noBG
-<br>
+
+Image Color Channel Separater:
+- https://github.com/j031nich0145/channelIT
 
 
 **Usage Terms**
