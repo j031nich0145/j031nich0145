@@ -10,31 +10,31 @@
 </div>
 
 ---
-**We have fun here...**
+## We have fun here...
 <br>
 <details>
   <summary>What's a Pirate's Favorite Programming Language?</summary>
   <b>'Tis R'rrrrrr</b>
 </details>
 
-**Projects:**
+## Projects:
 
-Linux 3 Finger Drag:
+### Linux 3 Finger Drag:
 - https://github.com/j031nich0145/draggg
 
-Image Pixelation & Crop Tool:
+### Image Pixelation & Crop Tool:
 - https://github.com/j031nich0145/pxl8
 
-Image Background Removal Tool:
+### Image Background Removal Tool:
 - https://github.com/j031nich0145/noBG
 
-Image Color-Channel Separation Tool:
+### Image Color-Channel Separation Tool:
 - https://github.com/j031nich0145/channel_IT
 
-Meme Creation Tool:
+### Meme Creation Tool:
 - https://github.com/j031nich0145/MeMer
 
-Crypto Exchange Orderbook Aggregator:
+### Crypto Exchange Orderbook Aggregator:
 - https://github.com/j031nich0145/Newagg
 
 
