@@ -13,20 +13,24 @@
 ## We have fun here...
 <br>
 <details>
-  <summary><b>What's a Pirate's Favorite Programming Language?</b></summary>
-  <b>'Tis R'rrrrrr</b>
+  <summary><b>What Programming Language do Pirates Prefer?</b></summary>
+  <img width="1024" height="1024" alt="Rrrrr" src="https://github.com/user-attachments/assets/f6d85216-e882-405d-a6b9-65154fe36721" />
 </details>
 <br>
 
-## Projects:
+# Open Sourced Projects:
+
+## Software:
 
 ### Linux 3 Finger Drag:
 - https://github.com/j031nich0145/draggg
 
 ### Image Pixelation & Crop Tool:
+- https://j031nich0145.github.io/pxl8/
 - https://github.com/j031nich0145/pxl8
 
 ### Image Background Removal Tool:
+- https://j031nich0145.github.io/noBG
 - https://github.com/j031nich0145/noBG
 
 ### Image Color-Channel Separation Tool:
@@ -37,6 +41,10 @@
 
 ### Crypto Exchange Orderbook Aggregator:
 - https://github.com/j031nich0145/Newagg
+  
+## Research: (in progress...)
+
+## Data/Art: (in progress...)
 
 
 **Usage Terms**
