@@ -49,9 +49,9 @@ Repurposing of any work must be properly attributed to this page.
 A 5% royalty is required to use or repurpose any of the tools or software for profit.  
 Find the collaborative royalty contract [here](https://github.com/j031nich0145/j031nich0145/blob/main/LICENSING.md).
 
-## Support Us**
+## Support Us
 
 Buy us **coffee** or **beer** or **sponsor us** here:  [![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-%E2%9D%A4-red.svg)](https://github.com/sponsors/j031nich0145) ☕🍺💖
 
 
-### DO NOT [CLICK HERE](https://j031nich0145.github.io/j031nich0145/)
+#### DO NOT [CLICK HERE](https://j031nich0145.github.io/j031nich0145/)
