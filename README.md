@@ -18,7 +18,7 @@
 </details>
 
 **Projects:**
-<br>
+
 Linux 3 Finger Drag:
 - https://github.com/j031nich0145/draggg
 
@@ -29,7 +29,7 @@ Image Background Removal Tool:
 - https://github.com/j031nich0145/noBG
 
 Image Color Channel Separater:
-- https://github.com/j031nich0145/channelIT
+- https://github.com/j031nich0145/channel_IT
 
 
 **Usage Terms**
