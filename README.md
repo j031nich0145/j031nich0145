@@ -42,9 +42,15 @@
 ### Crypto Exchange Orderbook Aggregator:
 - https://github.com/j031nich0145/Newagg
   
-## Research: (in progress...)
+## Research/Papers: 
 
-## Data/Art: (in progress...)
+### Machine Learning for Dummies Blog
+- https://j031nich0145.github.io/Machine_Learning_for_Dummies/
+  
+## Data/Art: 
+
+### The Big Picture - Art Documentary (30min)
+- https://www.youtube.com/watch?v=tRjZAetHUzA
 
 
 **Usage Terms**
