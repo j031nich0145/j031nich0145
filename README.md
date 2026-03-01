@@ -9,15 +9,6 @@
 
 </div>
 
----
-## We have fun here...
-<br>
-<details>
-  <summary><b>What Programming Language do Pirates Prefer?</b></summary>
-  <img width="1024" height="1024" alt="Rrrrr" src="https://github.com/user-attachments/assets/f6d85216-e882-405d-a6b9-65154fe36721" />
-</details>
-<br>
-
 # Open Sourced Projects:
 
 ## Software:
