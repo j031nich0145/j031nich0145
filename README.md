@@ -27,18 +27,27 @@
 ### Image Color-Channel Separation Tool:
 - https://github.com/j031nich0145/channel_IT
 
-### Meme Creation Tool:
-- https://github.com/j031nich0145/MeMer
+### Pixellated Paint tool:
+- https://github.com/j031nich0145/pxlPaint
 
-### Crypto Exchange Orderbook Aggregator:
-- https://github.com/j031nich0145/Newagg
-  
+### 3D Mesh Object Deformation: morPhi
+- https://github.com/j031nich0145/morPhi
+
+### Keyboard MIDI Trigger Studio: keyB34T
+- https://github.com/j031nich0145/keyB34T
+
 ## Research/Papers: 
+
+### Quantum Exploration
+- ... loading ...
 
 ### Machine Learning for Dummies Blog
 - https://j031nich0145.github.io/Machine_Learning_for_Dummies/
   
 ## Data/Art: 
+
+### DivineEDA 
+- ... loading ...
 
 ### The Big Picture - Art Documentary (30min)
 - https://www.youtube.com/watch?v=tRjZAetHUzA
