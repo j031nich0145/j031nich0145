@@ -9,9 +9,7 @@
 
 </div>
 
-# Open Sourced Projects:
-
-## Software:
+## Open Sourced Software:
 
 ### Linux 3 Finger Drag:
 - https://github.com/j031nich0145/draggg
@@ -41,6 +39,9 @@
 ### Quantum Exploration
 - ... loading ...
 
+### Fusion Exploration
+- ... loading ...
+  
 ### Machine Learning for Dummies Blog
 - https://j031nich0145.github.io/Machine_Learning_for_Dummies/
   
