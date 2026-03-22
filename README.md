@@ -18,24 +18,25 @@
 - pypi: https://pypi.org/project/draggg/
 
 ### Image Pixelation & Crop Tool:
-- https://j031nich0145.github.io/pxl8/
-- https://github.com/j031nich0145/pxl8
+
+- site: https://j031nich0145.github.io/pxl8/
+- repo: https://github.com/j031nich0145/pxl8
 
 ### Image Background Removal Tool:
-- https://j031nich0145.github.io/noBG
-- https://github.com/j031nich0145/noBG
+- site: https://j031nich0145.github.io/noBG
+- repo: https://github.com/j031nich0145/noBG
 
 ### Image Color-Channel Separation Tool:
-- https://github.com/j031nich0145/channel_IT
+- repo: https://github.com/j031nich0145/channel_IT
 
 ### Pixellated Paint tool:
-- https://github.com/j031nich0145/pxlPaint
+- repo: https://github.com/j031nich0145/pxlPaint
 
-### 3D Mesh Object Deformation: morPhi
-- https://github.com/j031nich0145/morPhi
+### 3D Mesh Object Deformation: 
+- repo: https://github.com/j031nich0145/morPhi
 
-### Keyboard MIDI Trigger Studio: keyB34T
-- https://github.com/j031nich0145/keyB34T
+### Keyboard MIDI Trigger Studio: 
+- repo: https://github.com/j031nich0145/keyB34T
 
 ## Research/Papers: 
 
