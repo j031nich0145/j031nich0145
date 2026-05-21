@@ -69,6 +69,7 @@
 
 ## Research/Papers: 
 
+<br>
 <details>
 <summary><b>Quantum Exploration</b></summary>
 <br>
