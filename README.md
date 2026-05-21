@@ -14,9 +14,9 @@
 <details>
 <summary><b>Linux 3 Finger Drag</b></summary>
 <pre>
-- site: https://j031nich0145.github.io/draggg/
-- repo: https://github.com/j031nich0145/draggg
-- pypi: https://pypi.org/project/draggg/
+site: "https://j031nich0145.github.io/draggg/"
+repo: "https://github.com/j031nich0145/draggg"
+pypi: "https://pypi.org/project/draggg/"
 </pre>
 </details>
 
