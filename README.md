@@ -27,9 +27,12 @@
 * **repo:** [https://github.com/j031nich0145/pxl8](https://github.com/j031nich0145/pxl8)
 </details>
 
-### Image Background Removal Tool:
-- site: https://j031nich0145.github.io/noBG
-- repo: https://github.com/j031nich0145/noBG
+<details>
+<summary><b>Image Background Removal Tool:</b></summary>
+
+* **site:** [https://j031nich0145.github.io/noBG](https://j031nich0145.github.io/noBG)
+* **repo:** [https://github.com/j031nich0145/noBG](https://github.com/j031nich0145/noBG)
+</details>
 
 ### Image Color-Channel Separation Tool:
 - repo: https://github.com/j031nich0145/channel_IT
