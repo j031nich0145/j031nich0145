@@ -62,14 +62,14 @@
 * repo: [https://github.com/j031nich0145/keyB34T](https://github.com/j031nich0145/keyB34T)
 
 </details>
-
+<br>
 ## Research/Papers: 
 
 <details>
 <summary><b>Quantum Exploration</b></summary>
 <br>
   <details>
-  <summary><b>Computing</summary></details></b></summary>
+  <summary><b>Computing</b></summary>
 
 . . . Loading . . .
 
