@@ -1,6 +1,6 @@
 <div align="center">
 
-## ✨     Agents at Work     ✨
+# ✨     Agents at Work     ✨
 
 <br>
 
@@ -85,11 +85,17 @@
 
 </details>
   
-  
- 
+<details>
+<summary><b>Fusion Exploration</b></summary>
+<br>
+  <details>
+  <summary><b>Reactor Benchmarks</b></summary>
 
-### Fusion Exploration
-- ... loading ...
+. . . Loading . . .
+
+  </details>
+
+</details>
   
 ### Machine Learning for Dummies Blog
 - https://j031nich0145.github.io/Machine_Learning_for_Dummies/
