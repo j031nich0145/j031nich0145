@@ -64,9 +64,10 @@
 </details>
 
 ## Research/Papers: 
+
 <details>
 <summary><b>Quantum Exploration</b></summary>
-
+<br>
   <details>
   <summary>Computing</summary>
 
