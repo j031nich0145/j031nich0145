@@ -34,11 +34,19 @@
 * **repo:** [https://github.com/j031nich0145/noBG](https://github.com/j031nich0145/noBG)
 </details>
 
-### Image Color-Channel Separation Tool:
-- repo: https://github.com/j031nich0145/channel_IT
+<details>
+<summary><b>Image Color-Channel Separation Tool:</b></summary>
 
-### Pixellated Paint tool:
-- repo: https://github.com/j031nich0145/pxlPaint
+* **repo:** [https://github.com/j031nich0145/channel_IT](https://github.com/j031nich0145/channel_IT)
+
+</details>
+
+<details>
+<summary><b>Pixellated Paint tool:</b></summary>
+  
+* **repo:** [https://github.com/j031nich0145/pxlPaint](https://github.com/j031nich0145/pxlPaint)
+
+</details>
 
 ### 3D Mesh Object Deformation: 
 - repo: https://github.com/j031nich0145/morPhi
