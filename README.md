@@ -64,24 +64,24 @@
 </details>
 
 ## Research/Papers: 
-
 <details>
 <summary><b>Quantum Exploration</b></summary>
 
-  <ul>
-    <li>
-      <details>
-        <summary>Computing</summary>
-          . . . Loading . . .
-      
-      
-      </details>
-    </li>
-    <li>
+  <details>
+  <summary>Computing</summary>
 
-
+. . . Loading . . .
 
   </details>
+
+  <details>
+  <summary>Physics</summary>
+
+. . . Loading . . . 
+
+  </details>
+
+</details>
   
   
  
