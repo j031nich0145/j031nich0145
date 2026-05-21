@@ -13,6 +13,7 @@
 
 ## Open Sourced Software:
 
+<br>
 <details>
 <summary><b>Linux 3 Finger Drag</b></summary>
   
