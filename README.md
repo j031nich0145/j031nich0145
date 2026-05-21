@@ -14,44 +14,44 @@
 <details>
 <summary><b>Linux 3 Finger Drag</b></summary>
   
-* **site:** [https://j031nich0145.github.io/draggg/](https://j031nich0145.github.io/draggg/)
-* **repo:** [https://github.com/j031nich0145/draggg](https://github.com/j031nich0145/draggg)
-* **pypi:** [https://pypi.org/project/draggg/](https://pypi.org/project/draggg/)
+* site: [https://j031nich0145.github.io/draggg/](https://j031nich0145.github.io/draggg/)
+* repo: [https://github.com/j031nich0145/draggg](https://github.com/j031nich0145/draggg)
+* pypi: [https://pypi.org/project/draggg/](https://pypi.org/project/draggg/)
 </details>
 
 
 <details>
   <summary><b>Image Pixelation & Crop Tool</b></summary>
 
-* **site:** [https://j031nich0145.github.io/pxl8/](https://j031nich0145.github.io/pxl8/)
-* **repo:** [https://github.com/j031nich0145/pxl8](https://github.com/j031nich0145/pxl8)
+* site: [https://j031nich0145.github.io/pxl8/](https://j031nich0145.github.io/pxl8/)
+* repo: [https://github.com/j031nich0145/pxl8](https://github.com/j031nich0145/pxl8)
 </details>
 
 <details>
 <summary><b>Image Background Removal Tool</b></summary>
 
-* **site:** [https://j031nich0145.github.io/noBG](https://j031nich0145.github.io/noBG)
-* **repo:** [https://github.com/j031nich0145/noBG](https://github.com/j031nich0145/noBG)
+* site: [https://j031nich0145.github.io/noBG](https://j031nich0145.github.io/noBG)
+* repo: [https://github.com/j031nich0145/noBG](https://github.com/j031nich0145/noBG)
 </details>
 
 <details>
 <summary><b>Image Color-Channel Separation Tool</b></summary>
 
-* **repo:** [https://github.com/j031nich0145/channel_IT](https://github.com/j031nich0145/channel_IT)
+* repo: [https://github.com/j031nich0145/channel_IT](https://github.com/j031nich0145/channel_IT)
 
 </details>
 
 <details>
 <summary><b>Pixellated Paint tool</b></summary>
   
-* **repo:** [https://github.com/j031nich0145/pxlPaint](https://github.com/j031nich0145/pxlPaint)
+* repo: [https://github.com/j031nich0145/pxlPaint](https://github.com/j031nich0145/pxlPaint)
 
 </details>
 
 <details>
 <summary><b>3D Mesh Object Deformation Suite</b></summary>
   
-* **repo:** [https://github.com/j031nich0145/morPhi](https://github.com/j031nich0145/morPhi])
+* repo: [https://github.com/j031nich0145/morPhi](https://github.com/j031nich0145/morPhi])
 
 </details>
 
@@ -59,7 +59,7 @@
 <details>
 <summary><b>Keyboard MIDI Trigger Studio</b></summary>
 
-* **repo:** [https://github.com/j031nich0145/keyB34T](https://github.com/j031nich0145/keyB34T)
+* repo: [https://github.com/j031nich0145/keyB34T](https://github.com/j031nich0145/keyB34T)
 
 </details>
 
@@ -69,14 +69,14 @@
 <summary><b>Quantum Exploration</b></summary>
 <br>
   <details>
-  <summary>Computing</summary>
+  <summary><b>Computing</summary></details></b></summary>
 
 . . . Loading . . .
 
   </details>
 
   <details>
-  <summary>Physics</summary>
+  <summary><b>Physics</b></summary>
 
 . . . Loading . . . 
 
