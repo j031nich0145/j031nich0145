@@ -21,38 +21,47 @@
 
 
 <details>
-  <summary><b>Image Pixelation & Crop Tool:</b></summary>
+  <summary><b>Image Pixelation & Crop Tool</b></summary>
 
 * **site:** [https://j031nich0145.github.io/pxl8/](https://j031nich0145.github.io/pxl8/)
 * **repo:** [https://github.com/j031nich0145/pxl8](https://github.com/j031nich0145/pxl8)
 </details>
 
 <details>
-<summary><b>Image Background Removal Tool:</b></summary>
+<summary><b>Image Background Removal Tool</b></summary>
 
 * **site:** [https://j031nich0145.github.io/noBG](https://j031nich0145.github.io/noBG)
 * **repo:** [https://github.com/j031nich0145/noBG](https://github.com/j031nich0145/noBG)
 </details>
 
 <details>
-<summary><b>Image Color-Channel Separation Tool:</b></summary>
+<summary><b>Image Color-Channel Separation Tool</b></summary>
 
 * **repo:** [https://github.com/j031nich0145/channel_IT](https://github.com/j031nich0145/channel_IT)
 
 </details>
 
 <details>
-<summary><b>Pixellated Paint tool:</b></summary>
+<summary><b>Pixellated Paint tool</b></summary>
   
 * **repo:** [https://github.com/j031nich0145/pxlPaint](https://github.com/j031nich0145/pxlPaint)
 
 </details>
 
-### 3D Mesh Object Deformation: 
-- repo: https://github.com/j031nich0145/morPhi
+<details>
+<summary><b>3D Mesh Object Deformation Suite</b></summary>
+  
+* **repo:** [https://github.com/j031nich0145/morPhi](https://github.com/j031nich0145/morPhi])
 
-### Keyboard MIDI Trigger Studio: 
-- repo: https://github.com/j031nich0145/keyB34T
+</details>
+
+
+<details>
+<summary><b>Keyboard MIDI Trigger Studio</b></summary>
+
+* **repo:** [https://github.com/j031nich0145/keyB34T](https://github.com/j031nich0145/keyB34T)
+
+</details>
 
 ## Research/Papers: 
 
