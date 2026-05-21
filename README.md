@@ -11,14 +11,16 @@
 
 ## Open Sourced Software:
 
+## Open Sourced Software:
+
 <details>
 <summary><b>Linux 3 Finger Drag</b></summary>
-<pre>
-site: "https://j031nich0145.github.io/draggg/"
-repo: "https://github.com/j031nich0145/draggg"
-pypi: "https://pypi.org/project/draggg/"
-</pre>
+
+* **site:** [https://j031nich0145.github.io/draggg/](https://j031nich0145.github.io/draggg/)
+* **repo:** [https://github.com/j031nich0145/draggg](https://github.com/j031nich0145/draggg)
+* **pypi:** [https://pypi.org/project/draggg/](https://pypi.org/project/draggg/)
 </details>
+
 
 
 ### Image Pixelation & Crop Tool:
