@@ -65,7 +65,6 @@
 * repo: [https://github.com/j031nich0145/keyB34T](https://github.com/j031nich0145/keyB34T)
 
 </details>
-<br>
 
 ## Research/Papers: 
 
