@@ -68,11 +68,18 @@
 <details>
 <summary><b>Quantum Exploration</b></summary>
 
-  <summary>Computing</summary> 
-   ... loading ...
+  <ul>
+    <li>
+      <details>
+        <summary>Computing</summary>
+          . . . Loading . . .
+      
+      
+      </details>
+    </li>
+    <li>
 
-   <summary>Physics</summary>
-    ... loading ...
+
 
   </details>
   
