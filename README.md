@@ -98,6 +98,7 @@
 . . . Loading . . .
 
   </details>
+  <br>
 
 </details>
 
@@ -112,7 +113,7 @@
   </details>
 
 </details>
-  
+  <br>
 
   
 ## Data/Art: 
