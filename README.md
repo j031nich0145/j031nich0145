@@ -74,26 +74,26 @@
 <summary><b>Quantum Exploration</b></summary>
 <br>
   <details>
-  <summary><b>Computing</b></summary>
+  <summary>Computing</summary>
 
 . . . Loading . . .
 
   </details>
 
   <details>
-  <summary><b>Physics</b></summary>
+  <summary>Physics</summary>
 
 . . . Loading . . . 
 
   </details>
-
+<br>
 </details>
   
 <details>
 <summary><b>Fusion Exploration</b></summary>
 <br>
   <details>
-  <summary><b>Reactor Benchmarks</b></summary>
+  <summary>Reactor Benchmarks</summary>
 
 . . . Loading . . .
 
@@ -106,7 +106,7 @@
 <summary><b>ML, AI, Bot Exploration</b></summary>
 <br>
   <details>
-  <summary><b>Machine Learning for Dummies Blog</b></summary>
+  <summary>Machine Learning for Dummies Blog</summary>
 
 - https://j031nich0145.github.io/Machine_Learning_for_Dummies/
 
