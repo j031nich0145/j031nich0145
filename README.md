@@ -172,8 +172,8 @@
   <details>
   <summary>Visual Art & Stuff</summary>
 
-- https://tumblr.com/j031nich0145
-- https://instagram.com/j031nich0145
+- [https://www.tumblr.com/j031nich0145](https://www.tumblr.com/j031nich0145)
+- [https://www.instagram.com/j031nich0145](https://www.instagram.com/j031nich0145)
 
   </details>
 <br>
