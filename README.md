@@ -15,7 +15,7 @@
 
 <br>
 <details>
-<summary><b>Global Carbon, UV Index, Air Quality Dashboard</b></summary>
+<summary><b>Global Carbon, UV Index & Air Quality Dashboard</b></summary>
   
 * site: [https://j031nich0145.github.io/draggg/](https://j031nich0145.github.io/draggg/)
 * repo: [https://github.com/j031nich0145/draggg](https://github.com/j031nich0145/draggg)
@@ -23,7 +23,7 @@
 </details>
 
 <details>
-<summary><b>Global Infectios Disease & Virus Tracking Dashboard</b></summary>
+<summary><b>Global Infectious Disease & Virus-Tracking Dashboard</b></summary>
   
 * site: [https://j031nich0145.github.io/draggg/](https://j031nich0145.github.io/draggg/)
 * repo: [https://github.com/j031nich0145/draggg](https://github.com/j031nich0145/draggg)
@@ -137,13 +137,47 @@
   <br>
 
   
-## Art: 
+## Exploratory Data Analysis & Misc. 
 
-### DivineEDA 
-- ... loading ...
+<br>
+<details>
+<summary><b>Exploratory Data Analysis</b></summary>
+<br>
+  <details>
+  <summary>Divine EDA</summary>
 
-### The Big Picture - Art Documentary (30min)
+. . . Loading . . .
+
+  </details>
+
+  <details>
+  <summary>Sustainibility EDA</summary>
+
+. . . Loading . . . 
+
+  </details>
+<br>
+</details>
+
+<details>
+<summary><b>Creative Miscellaneous</b></summary>
+<br>
+  <details>
+  <summary>The Big Picture - Art Documentary (30min)</summary>
+
 - https://www.youtube.com/watch?v=tRjZAetHUzA
+
+  </details>
+
+  <details>
+  <summary>Visual Art & Stuff</summary>
+
+- https://tumblr.com/j031nich0145
+- https://instagram.com/j031nich0145
+
+  </details>
+<br>
+</details>
 
 
 **Usage Terms**
