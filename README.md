@@ -11,6 +11,27 @@
 
 </div>
 
+## Data and Visualizations:
+
+<br>
+<details>
+<summary><b>Global Carbon, UV Index, Air Quality Dashboard</b></summary>
+  
+* site: [https://j031nich0145.github.io/draggg/](https://j031nich0145.github.io/draggg/)
+* repo: [https://github.com/j031nich0145/draggg](https://github.com/j031nich0145/draggg)
+
+</details>
+
+<details>
+<summary><b>Global Infectios Disease & Virus Tracking Dashboard</b></summary>
+  
+* site: [https://j031nich0145.github.io/draggg/](https://j031nich0145.github.io/draggg/)
+* repo: [https://github.com/j031nich0145/draggg](https://github.com/j031nich0145/draggg)
+
+</details>
+
+<br>
+
 ## Open Sourced Software:
 
 <br>
@@ -116,7 +137,7 @@
   <br>
 
   
-## Data/Art: 
+## Art: 
 
 ### DivineEDA 
 - ... loading ...
