@@ -100,9 +100,20 @@
   </details>
 
 </details>
-  
-### Machine Learning for Dummies Blog
+
+<details>
+<summary><b>ML, AI, Bot Exploration</b></summary>
+<br>
+  <details>
+  <summary><b>Machine Learning for Dummies Blog</b></summary>
+
 - https://j031nich0145.github.io/Machine_Learning_for_Dummies/
+
+  </details>
+
+</details>
+  
+
   
 ## Data/Art: 
 
