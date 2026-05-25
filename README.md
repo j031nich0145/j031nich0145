@@ -11,7 +11,7 @@
 
 </div>
 
-## Data and Visualizations:
+## Data & Visualizations:
 
 <br>
 <details>
