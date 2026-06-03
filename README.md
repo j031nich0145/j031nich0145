@@ -134,7 +134,6 @@
   </details>
 
 </details>
-  <br>
 
   <details>
 <summary><b>Sustainibility</b></summary>
