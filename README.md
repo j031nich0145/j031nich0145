@@ -136,6 +136,19 @@
 </details>
   <br>
 
+  <details>
+<summary><b>Sustainibility</b></summary>
+<br>
+  <details>
+  <summary>Solar Efficiency, Methods & Materials</summary>
+
+- https://j031nich0145.github.io/Machine_Learning_for_Dummies/
+
+  </details>
+
+</details>
+  <br>
+
   
 ## Exploratory Data Analysis & Misc. 
 
