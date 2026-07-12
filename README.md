@@ -30,6 +30,13 @@
 
 </details>
 
+<details>
+<summary><b>Quantum Algorithm Sandbox (Unity)</b></summary>
+  
+* repo: [https://github.com/j031nich0145/QBox](https://github.com/j031nich0145/QBox)
+
+</details>
+
 <br>
 
 ## Open Sourced Software:
@@ -44,9 +51,15 @@
 </details>
 
 <details>
-<summary><b>Desktop LLM Interface</b></summary>
+<summary><b>Desktop Local LLM Interface</b></summary>
   
 * repo: [https://github.com/j031nich0145/Qt-Chat](https://github.com/j031nich0145/Qt-Chat)
+</details>
+
+<details>
+<summary><b>Applause Muting or Augmentation Tool</b></summary>
+  
+* repo: [https://github.com/j031nich0145/Apploose](https://github.com/j031nich0145/Apploose)
 </details>
 
 <details>
