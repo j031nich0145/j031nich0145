@@ -32,7 +32,8 @@
 
 <details>
 <summary><b>Quantum Algorithm Sandbox (Unity)</b></summary>
-  
+
+* site: [http://qu-box.net/](http://qu-box.net/)
 * repo: [https://github.com/j031nich0145/QBox](https://github.com/j031nich0145/QBox)
 
 </details>
