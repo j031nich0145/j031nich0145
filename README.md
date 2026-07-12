@@ -43,7 +43,6 @@
 * pypi: [https://pypi.org/project/draggg/](https://pypi.org/project/draggg/)
 </details>
 
-<br>
 <details>
 <summary><b>Desktop LLM Interface</b></summary>
   
