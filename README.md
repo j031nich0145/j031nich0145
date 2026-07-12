@@ -25,8 +25,8 @@
 <details>
 <summary><b>Global Infectious Disease & Virus-Tracking Dashboard</b></summary>
   
-* site: [https://j031nich0145.github.io/draggg/](https://j031nich0145.github.io/draggg/)
-* repo: [https://github.com/j031nich0145/draggg](https://github.com/j031nich0145/draggg)
+* site: [http://macromicro.net/](http://macromicro.net/)
+* repo: [https://github.com/j031nich0145/MacroMicro](https://github.com/j031nich0145/MacroMicro)
 
 </details>
 
