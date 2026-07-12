@@ -43,6 +43,12 @@
 * pypi: [https://pypi.org/project/draggg/](https://pypi.org/project/draggg/)
 </details>
 
+<br>
+<details>
+<summary><b>Desktop LLM Interface</b></summary>
+  
+* repo: [https://github.com/j031nich0145/Qt-Chat](https://github.com/j031nich0145/Qt-Chat)
+</details>
 
 <details>
   <summary><b>Image Pixelation & Crop Tool</b></summary>
