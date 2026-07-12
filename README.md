@@ -61,7 +61,8 @@
 <details>
 <summary><b>Applause Muting / Augmentation Tool</b></summary>
   
-* repo: [https://github.com/j031nich0145/Apploose](https://github.com/j031nich0145/Apploose)
+* site: [http://www.applooose.com/](http://www.applooose.com/)
+* repo: [https://github.com/j031nich0145/Applooose](https://github.com/j031nich0145/Apploose)
 </details>
 
 <details>
