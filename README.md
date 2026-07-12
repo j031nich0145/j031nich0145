@@ -57,7 +57,7 @@
 </details>
 
 <details>
-<summary><b>Applause Muting or Augmentation Tool</b></summary>
+<summary><b>Applause Muting / Augmentation Tool</b></summary>
   
 * repo: [https://github.com/j031nich0145/Apploose](https://github.com/j031nich0145/Apploose)
 </details>
